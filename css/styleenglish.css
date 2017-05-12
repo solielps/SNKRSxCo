@@ -1,0 +1,261 @@
+#wrapper{
+	background-image: url("../images/bg.jpg");
+	height: 500px;
+	padding-top: 50px;
+	text-align: left;
+	padding-left: 40px;
+	color: white;
+	background-size: cover; 
+	margin-top: -20px;
+}
+
+.container-fluid {
+	font-family: futura;
+	background-color: #283747;
+}
+
+.navbar{
+	background-color: #34495E;
+}
+
+.navitem{
+	color: #FADBD8 !important;
+	font-weight: 600;
+}
+
+.navbar-default .navbar-nav>li>a {
+	color:  #FADBD8   !important;
+	font-weight: 600;
+}
+.navbar-brand {
+	color:  #FADBD8 !important;
+	font-weight: 600;
+}
+.navbar-brand:hover{
+	color: white !important;
+}
+.dropdown-menu {
+	background-color: #34495E;
+}
+.dropdown-menu>li>a {
+	color:  #FADBD8   !important;
+}
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus {
+	background-color: #5D6D7E;
+}
+
+.dropdown-menu>li>a:hover{
+	background-color: #5D6D7E;
+}
+
+.btn {
+	font-family: futura;
+	background-color: #FAE5D3;
+	color: #34495E;
+}
+
+#join:hover{
+	color: white !important;
+}
+#login:hover{
+	color: white !important;
+}
+
+#valueprop{
+	padding-top: 80px;
+	padding-bottom: 80px;
+	font-family: futura;
+	color: #283747; 
+}
+
+#valuepropbg{
+	background-image: url("../images/linda.jpg");
+	background-size: cover; 
+}
+
+#valuepropbg img{
+	width: 100px;
+}
+
+
+/*  FOOTER */
+	#footer{
+		background-color: #283747;
+		color: #aaaaa;
+		padding: 10px;
+	}
+
+
+	#footer a{
+	 	color:white;
+	}
+
+	#footer a:hover{
+		color: #F5B7B1;
+	}
+
+
+	#footer .fa{
+		font-size: 30px;
+		margin-right: 40px;
+	}
+
+	.btn{
+		padding-left: 20px;
+		padding-right: 20px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		background-color:  rgba(0, 0, 0, 0.5);
+		color: white;
+	}
+
+	.btn:hover{
+		background-color: rgba(0, 0, 0, 0.5) !important;
+		border: 4px solid white;
+	}
+
+button{
+	padding-top: 14px;
+	padding-bottom: 14px;
+	padding-left: 40px;
+	padding-right:40px;
+	background-color: #5DADE2;
+	color: white;
+	font-weight: 600;
+	border-radius: 6px;
+	border: none;
+}
+
+/* Container avec les bouttons SELL BUY Cr. */
+.buttoncontainer{
+	margin-top: 100px;
+	margin-left: -30px;
+}
+
+#button1 {
+	background-color: #AED6F1;
+	color: white;
+	font-family: futura;
+	letter-spacing: 5px;
+	font-weight: 600;
+	border: none;
+	padding: 5px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	font-size: 20px;
+	margin: 100px;
+	width: 150px;
+}	
+
+#button1:hover{
+	background-color: rgba(0,0,0, 0.1) !important;
+	color: #AED6F1;
+}
+
+#button2 {
+	background-color: #5DADE2;
+	color: white;
+	font-family: futura;
+	letter-spacing: 5px;
+	font-weight: 600;
+	border: none;
+	padding: 5px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	font-size: 20px;
+	margin: 100px;
+	width: 150px;
+}
+
+#button2:hover{
+	background-color: rgba(0,0,0, 0.1) !important;
+	color: #5DADE2;
+}
+
+#button3 {
+	background-color: #3498DB;
+	color: white;
+	font-family: futura;
+	letter-spacing: 5px;
+	font-weight: 600;
+	border: none;
+	padding: 5px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	font-size: 20px;
+	margin: 100px;
+	width: 150px;
+}
+
+#button3:hover{
+	background-color: rgba(0,0,0, 0.1) !important;
+	color: #3498DB;
+}	
+
+#logosneak{
+	float: right;
+    width: 100px;
+    top: 100px;
+    right: 70px;
+    position: absolute;
+}
+
+/* Masquer le logo de sneakers en dessous d'une certaine taille d'ecran */
+@media screen and (max-width: 480px) {
+    #logosneak {
+    display: none;
+    }
+}
+
+
+#descriptiontext{
+	padding-top: 80px;
+	padding-bottom: 60px;
+	padding-left: 100px;
+	padding-right: 30px;
+	line-height: 1.7em;
+	font-size: 20px;
+	text-align: center;
+	width: 1290px;
+	margin-left: -10px;
+	margin-top: 0px;
+	font-family: futura;
+	text-align: right;
+	color: #F5B7B1;
+	background-color: #283747;
+
+}
+
+h1 {
+	color: #3498DB;
+	font-size: 50px;
+	font-family: futura; 
+	text-align: left;
+	font-weight: 500;
+}
+h2 {
+	color: #85C1E9;
+	font-size: 30px;
+	font-family: futura;
+	text-align: left;
+}
+h4{
+	font-size: 25px;
+}
+p {
+		color: #F5B7B1;
+		font-family: century gothic; 
+		font-size: 18px;
+	}
+
+p1 {
+	color: #283747;
+	font-size: 18px;
+}
+
